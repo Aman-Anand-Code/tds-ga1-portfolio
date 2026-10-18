@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aman Anand's portfolio in computer science, data engineering, machine learning, and language-model research.">
+  <title>Aman Anand | Portfolio</title>
+  <style>
+    :root { color-scheme: light; --ink: #172033; --muted: #5b6475; --line: #dfe5ee; --accent: #285bd4; --surface: #fff; --bg: #f5f7fb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--bg); font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(900px, calc(100% - 32px)); margin: 0 auto; padding: 44px 0 60px; }
+    header { padding: 28px 0 32px; border-bottom: 1px solid var(--line); }
+    .eyebrow { margin: 0 0 8px; color: var(--accent); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .78rem; }
+    h1 { margin: 0; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.1; letter-spacing: -.04em; }
+    h2 { margin: 34px 0 12px; font-size: 1.45rem; }
+    h3 { margin: 0 0 8px; font-size: 1.08rem; }
+    p { margin: 8px 0; color: var(--muted); }
+    a { color: var(--accent); }
+    .intro { max-width: 720px; font-size: 1.08rem; }
+    .contact { margin-top: 18px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); gap: 14px; }
+    .card { padding: 18px; border: 1px solid var(--line); background: var(--surface); border-radius: 14px; }
+    .tag { display: inline-block; margin: 6px 5px 0 0; padding: 3px 9px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: .85rem; }
+    footer { margin-top: 38px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Computer Science · Data · AI Research</p>
+      <h1>Aman Anand</h1>
+      <p class="intro">I work across software engineering, data engineering, and machine learning, with a research interest in language models, knowledge-graph reasoning, and practical AI systems.</p>
+      <p class="contact">Contact: <!--email_off-->24f1002110@ds.study.iitm.ac.in<!--/email_off--></p>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>I have a background in Computer Science and Data Science. I enjoy building end-to-end data and AI solutions—from preparing reliable data pipelines to experimenting with models and evaluating their results.</p>
+    </section>
+
+    <section>
+      <h2>Selected Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>MetaQA: Knowledge-Graph Reasoning</h3>
+          <p>Explored preference optimization for a language model using question-conditioned reasoning paths and hard-negative examples on a movie knowledge graph.</p>
+          <span class="tag">LLMs</span><span class="tag">DPO</span><span class="tag">Knowledge Graphs</span>
+        </article>
+        <article class="card">
+          <h3>IndicSpeechBridge</h3>
+          <p>Built a Hindi-to-English speech translation workflow that combines automatic speech recognition with machine translation.</p>
+          <span class="tag">Whisper</span><span class="tag">IndicTrans2</span><span class="tag">Speech AI</span>
+        </article>
+        <article class="card">
+          <h3>Domain-Specific LLM Adaptation</h3>
+          <p>Experimented with LoRA and QLoRA to adapt a language model to oil-and-gas material, with retrieval-augmented generation for domain-focused responses.</p>
+          <span class="tag">LLaMA 2</span><span class="tag">PEFT</span><span class="tag">RAG</span>
+        </article>
+        <article class="card">
+          <h3>Time-Series Forecasting</h3>
+          <p>Compared forecasting approaches for emissions data, using error metrics to assess model performance and forecast quality.</p>
+          <span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">LSTM</span><span class="tag">ARIMA</span>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <p>Python, SQL, C++, Java, Pandas, NumPy, scikit-learn, PyTorch, TensorFlow, Hugging Face, FastAPI, PySpark, Databricks, data pipelines, model evaluation, and retrieval-augmented generation.</p>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+      <article class="card">
+        <h3>Accenture · Data Engineering</h3>
+        <p>Working with data engineering technologies and building practical skills in data processing, application development, and analytics workflows.</p>
+      </article>
+    </section>
+
+    <footer><p>Thanks for visiting my portfolio.</p></footer>
+  </main>
+</body>
+</html>
